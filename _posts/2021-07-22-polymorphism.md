@@ -3,7 +3,7 @@ title: "다형성"
 excerpt: "객체 지향의 꽃 다형성에 대해 알아보자"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, Polymorphism]
 

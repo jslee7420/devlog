@@ -3,7 +3,7 @@ title: "Object Class"
 excerpt: "최상위 객체 Object Class"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, Object]
 

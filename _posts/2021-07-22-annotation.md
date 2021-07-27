@@ -3,7 +3,7 @@ title: "Annotation"
 excerpt: "어노테이션의 의미와 예"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, annotation]
 

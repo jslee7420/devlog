@@ -3,7 +3,7 @@ title: "Java에서의 상속(Inheritance)"
 excerpt: "객체 지향의 핵심 개념 중 하나인 상속에 대해 알아보자"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, 상속, Inheritance]
 

@@ -3,7 +3,7 @@ title: "Java 반복문, 조건문, 연산자"
 excerpt: "Java의 반복문, 조건문, 연산자에 관한 팁"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, Datatypes]
 

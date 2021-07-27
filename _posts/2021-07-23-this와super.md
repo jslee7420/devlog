@@ -3,7 +3,7 @@ title: "this와 super"
 excerpt: "Java의 this와 super 예약어"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, this, super]
 

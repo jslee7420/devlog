@@ -3,7 +3,7 @@ title: "Java 배열"
 excerpt: "Java 1차원배열과 다차원 배열"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, Array]
 

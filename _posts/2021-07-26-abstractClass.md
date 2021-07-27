@@ -3,7 +3,7 @@ title: "추상 클래스"
 excerpt: "Java 다형성 추상클래스"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, 추상클래스]
 

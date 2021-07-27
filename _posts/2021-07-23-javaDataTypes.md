@@ -3,7 +3,7 @@ title: "Java 데이터 타입"
 excerpt: "Java의 자료형들"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, Datatypes]
 

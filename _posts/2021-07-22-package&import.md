@@ -3,7 +3,7 @@ title: "패키지"
 excerpt: "패키지의 정의와 탄생 배경"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, 역사, 탄생 배경]
 

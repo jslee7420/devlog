@@ -3,7 +3,7 @@ title: "Java란 무엇인가"
 excerpt: "자바가 무엇인지 어떻게 탄생하게 되었는지 알아보자"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, 역사, 탄생 배경]
 

@@ -3,7 +3,7 @@ title: "인터페이스"
 excerpt: "Java 다형성 인터페이스"
 
 categories:
-  - Java
+  - TIL
 tags:
   - [Java, interface]
 
@@ -11,13 +11,19 @@ toc: true
 toc_sticky: true
 
 date: 2021-07-26
-last_modified_at: 2021-07-26
+last_modified_at: 2021-07-27
 ---
 
 인터페이스 정의: 서로다른 두 장치, 소프트웨어를 이어주는 부분
 
 최고 수준의 추상화 단계: 모든 메서드가 abstract 형태
 jdk8에서 default method와 static method 추가(body를 가짐)
+
+- 사용자 관점:"What", 사용방법
+- 구현자 관점:"How", 동작의 책임(구현)
+
+인터페이스의 핵심: 사용과 구현의 분리!
+구현이 변경되어도 사용법은 변화가 없다.
 
 ## 형태
 
@@ -84,7 +90,7 @@ void abstractMethod();
 
 기존에 interface 기반으로 동작하는 라이브러리의 interface에 추가해야하는 기능이 발생
 기존 방식으로라면 모든 구현체들이 추가되는 메서드를 overrice 해야함
-default 메서드는 abstract가 아니므로 반드시 구현 피ㅣㄹ요 없음
+default 메서드는 abstract가 아니므로 반드시 구현 필요 없음
 
 default 메서드 충돌
 우선순위

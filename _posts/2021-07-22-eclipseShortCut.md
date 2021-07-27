@@ -3,7 +3,7 @@ title: "Eclipse 단축키 모음"
 excerpt: "생산성을 높여보자"
 
 categories:
-  - 기타
+  - TIL
 tags:
   - [Java, Eclipse]
 

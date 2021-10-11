@@ -4,6 +4,8 @@ main:
     url: /categories/java
   - title: "TIL"
     url: /categories/til
+  - title: "Algorithm"
+    url: /categories/algorithm
   - title: "Category"
     url: /categories/
   - title: "Tag"

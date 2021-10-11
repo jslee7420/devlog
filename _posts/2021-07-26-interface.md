@@ -101,7 +101,3 @@ interface간의 충돌: 하나의 interface에서 default method를 제공하고
 
 interface에 선언된 static method
 일반 static 메서드와 마찬가지로 별도의 객체 없이 바로 인터페이스 이름으로 접근해서 사용
-
-```
-
-```

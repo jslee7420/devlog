@@ -20,10 +20,10 @@ last_modified_at: 2021-08-14
 
 ## 순열(Permutation)
 
-서로 다른 n개중에서 r개를 택하여 나열하는 것을 순열이라고 합니다. 수학적으로 nPr과 같이 표현합니다. nPr은 다음과 같은 식이 성립합니다.
+서로 다른 n개중에서 r개를 택하여 나열하는 것을 순열이라고 합니다. 수학적으로 n_P_r과 같이 표현합니다. n_P_r은 다음과 같은 식이 성립합니다.
 
-nPr = n _ (n-1) _ (n-2) _... _ (n-r+1)  
-nPn = n!
+- n_P_r = n\*(n-1)\*(n-2)\*...\*(n-r+1)
+- n_P_n = n!
 
 nPn 문제에서 n이 12를 넘어가는 경우 12! = 479,001,600으로 시간복잡도가 폭발적으로 증가하기 때문에 **n이 12를 넘어가는 경우 순열을 사용해서 문제를 풀 수 없습니다.**
 
@@ -38,7 +38,7 @@ import java.util.Arrays;
 
 public class Permutation {
 	/*
-	 * 3P3
+	 * 3_P_3
 	 */
 	static int N, R, numbers[], result[];
 	public static void main(String[] args) {
@@ -72,7 +72,7 @@ import java.util.Arrays;
 
 public class Permutation {
 	/*
-	 * 3P3
+	 * 3_P_3
 	 */
 	static int N, R, numbers[], result[];
 	static boolean[] isSelected;
@@ -112,7 +112,7 @@ import java.util.Arrays;
 
 public class Permutation {
 	/*
-	 * 3P3
+	 * 3_P_3
 	 */
 	static int N, R, numbers[], result[];
 	public static void main(String[] args) {
@@ -147,7 +147,7 @@ import java.util.Arrays;
 
 public class Permutation {
 	/*
-	 * 3P3
+	 * 3_P_3
 	 */
 	static int N, R, numbers[], result[];
 	public static void main(String[] args) {
@@ -175,13 +175,13 @@ public class Permutation {
 
 ## 조합(Combination)
 
-서로 다른 n개의 원소중에서 r개를 순서 없이 골라낸 것을 조합이라고 합니다. 수학적으로 nCr과 같이 표현합니다. nCr은 다음과 같은 식이 성립합니다.
+서로 다른 n개의 원소중에서 r개를 순서 없이 골라낸 것을 조합이라고 합니다. 수학적으로 n_C_r과 같이 표현합니다. n_C_r은 다음과 같은 식이 성립합니다.
 
-nCr = n! / (n-r)!r!  
-nCr = n-1Cr-1 + n-1Cr  
-nC0 = 1
+- n_C_r = n! / ((n-r)!\*r!)
+- n*C_r = (n-1)\_C*(r-1) + (n-1)\_C_r
+- n_C_0 = 1
 
-조합의 경우 nCn/2에서의 경우의 수로 시간 복잡도를 판단합니다. 30C15 = 1억 5000 이므로 이를 암기하여 시간복잡도 계산의 기준으로 사용하는 것이 좋습니다.
+조합의 경우 r이 n의 절반인 n*C*(n/2) 일때 가장 경우의 수가 많습니다. 30_C_15 = 1억 5000 이므로 이를 암기하여 시간복잡도 계산의 기준으로 사용하는 것이 좋습니다.
 
 조합은 순서에 상관없이 원소를 뽑아야 합니다. 자리를 옮겨가며 원소를 뽑을때 앞에서 뽑은 숫자보다 큰 숫자를 뽑도록 강제하면 이를 구현할 수 있습니다.
 
@@ -194,7 +194,7 @@ import java.util.Arrays;
 
 public class Combination {
 	/*
-	 * 5C3
+	 * 5_C_3
 	 */
 
 	static int N, R, numbers[], result[];
@@ -226,7 +226,7 @@ import java.util.Arrays;
 
 public class Combination {
 	/*
-	 * 5C3
+	 * 5_C_3
 	 */
 
 	static int N, R, numbers[], result[];
@@ -262,7 +262,7 @@ import java.util.Arrays;
 
 public class Combination {
 	/*
-	 * 5C3
+	 * 5_C_3
 	 */
 	static int N, R, numbers[], result[];
 	static boolean[] isSelected;
@@ -290,7 +290,7 @@ public class Combination {
 
 ## 부분집합
 
-집합에 포함된 원소들을 선택하는 것입니다. 부분집합의 수는 집합의 원소가 n개 일때, 2^n개입니다. 각 원소를 부분집합에 포함하거나 포함하지 않는 두가지 경우를 모든 원소에 적용한 경우의 수와 같습니다.
+집합에 포함될 원소들을 선택하는 것입니다. 각 원소를 부분집합에 포함하거나 포함하지 않는 두가지 경우를 모든 원소에 적용한 경우의 수와 같습니다. 부분집합의 수는 집합의 원소가 n개 일때, 2^n개입니다.
 
 2^30 = 1,073,741,824 이므로 n이 30개 이상인 문제에서는 모든 부분 집합을 구하는 것이 아닌 다른 방법을 사용해야 합니다.
 
@@ -356,7 +356,7 @@ public class Subset {
 	private static void subset() {
 		for(int i=0;i<(1<<N);i++) { // 1<<n: 부분집합의 개수
 			for(int j=0;j<N;j++)  // 원소의 수 만큼 비트 비교
-      if((i&1<<j)!=0) System.out.print(numbers[j]+" ");
+      			if((i&1<<j)!=0) System.out.print(numbers[j]+" ");
 			System.out.println();
 		}
 	}

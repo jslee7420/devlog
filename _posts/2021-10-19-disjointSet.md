@@ -43,7 +43,7 @@ static int[] p; // 인덱스를 노드의 번호로 하고 자신이 가르키�
 public static void makeSet(int n) {
     p = new int[n+1];
     for (int i = 0; i < p.length; i++)
-        p[i] = 0;
+        p[i] = i;
 }
 
 public static int findSet(int a) {

@@ -16,7 +16,7 @@ last_modified_at: 2021-11-20
 
 vue.js와 카카오맵의 연동에 대한 자료가 많지 않아 정리해보았습니다.
 
-## 1. API 숨기기
+## 1. API Key 숨기기
 
 카카오맵 연동시 API KEY를 발급받아 script에서 API를 불러올때 사용해야 합니다.
 

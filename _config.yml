@@ -100,15 +100,15 @@ analytics:
 
 # Site Author
 author:
-  name: "JSLEE"
+  name: #"JSLEE"
   avatar: "assets/img/JS_LOGO-02.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "SSAFY 6기, 빠르게 학습하고 끝까지 매달리는 개발자입니다"
-  location: "Bundang, Korea"
-  email: "jeongsoo.lee7420@gmail.com"
+  bio: "빠르게 학습하고 끝까지 매달리는 개발자입니다"
+  location: #"Bundang, Korea"
+  email: #"jeongsoo.lee7420@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:jeongsoo.lee@gmail.com"
+      url: "mailto:jeongsoo.lee@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://jslee7420.github.io"
